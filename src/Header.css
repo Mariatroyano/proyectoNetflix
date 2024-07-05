@@ -1,0 +1,99 @@
+
+body{
+    background-color: #130f0f;
+}
+.header {
+   display: flex;
+   background-color: #3a3737b9;
+   justify-content: space-between;
+    padding: 20px;
+    padding-left: 40px;
+   
+
+}
+.lupa{
+    color: aliceblue;/*de los botones campanita,lupa,flechita*/
+    background-color:  #3a3737b9;
+    border: none;
+}
+.header .container{
+    display: flex;
+    
+}
+.logo{
+    width: 200px;
+    left: 100px;
+}
+
+.barra{
+    height: 100;
+    display: flex;
+    margin-left: 20px;
+}
+.logito{
+    height: 55px;
+   
+    }
+    .container{
+        display: flex;
+    }
+    .header nav a{
+        color: aliceblue;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    .abrir-Menu{
+        color: aliceblue;/*de los botones campanita,lupa,flechita*/
+        background-color:  #3a3737b9;
+        border: none
+    }
+    .cerrar-menu{
+        color: aliceblue;/*de los botones campanita,lupa,flechita*/
+        background-color:  #3a3737b9;
+        border: none
+    }
+
+    @media screen and (max-width:550px) {
+
+        .abrir-Menu {
+            display: flex;
+            border: 0;
+            background: red;/*Color del boton*/
+            color: white; /*Color de las lineas*/
+        }
+        .cerrar-menu {
+            display: block;
+        }
+    
+     .nav  {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: irem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #060606;
+        padding: 2rem;
+    }
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav a {
+        flex-direction: column;
+        align-items: end;
+        gap: 2rem;
+    }
+    
+    
+    }
+    
+    
+
+
+
+
